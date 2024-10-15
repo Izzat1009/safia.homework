@@ -1,0 +1,92 @@
+.es-news-section{
+    margin-top: 50px;
+}
+.es-new-container{
+    overflow: auto;
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+
+}
+.es-section-title{
+    text-align: center;
+    font-size: 32px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+}
+.es-product-list{
+
+    .btn__first{
+        border: none;
+        border-radius: 55px;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        margin-right: 20px;
+        &:hover{
+            background-color: rgba(128, 128, 128, 0.672);
+        }
+    }
+    .btn__last{
+        border: none;
+        border-radius: 55px;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        transition: .3s;
+        &:hover{
+            background-color: rgba(128, 128, 128, 0.672);
+        }
+    }
+
+}
+.es-menu3{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1520px;
+    width: 100%;
+    margin-top: 50px;
+}
+.es-grids3{
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    max-width: 1520px;
+    height: 900px;
+    margin: 0 auto;
+    grid-gap: 0 13px;
+}
+
+.grid-box3{
+    max-width: 1520px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    img{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 468px;
+        height: 468px;
+        border-radius: 50%;
+    }
+    button{
+        position: absolute;
+        font-size: 15px;
+        border-radius: 50%;
+        background-color: #dcc38b;
+        border: 8px solid #fff;
+        color: #fff;
+        font-weight: 500;
+        margin-left: -310px;
+        margin-top: 10%;
+        font-family: Rubik, sans-serif;
+        width: 150px;
+        height: 150px;
+    }
+}

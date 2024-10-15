@@ -1,0 +1,16 @@
+@import "variable";
+@import "reset";
+@import "mixins";
+
+// section
+@import "header";
+@import "hero";
+@import "es-category-section";
+@import "es-top-section";
+@import "es-top-section2";
+@import "es-about-section";
+@import "es-news-section";
+
+body{
+    min-height: 500vh;
+}
